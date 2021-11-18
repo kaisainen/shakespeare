@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Lobster&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+  max-width: 960px;
+  line-height: 20px;
+}
+ul {
+  list-style: disc;
+  padding: 1rem 1rem 1rem 4rem;
+}
+h1,
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+table {
+  margin-bottom: 1rem;
+}
+tr {
+  line-height: 1.5;
+}
+td {
+  padding-right: 1rem;
+}
+.basic-btn {
+  background-color: aquamarine;
+  color: black;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 40px;
+  border: solid black 1px;
+}
+/* CSS-säännöt javascriptillä */
+.new-body {
+  background-color: aquamarine;
+  margin: auto;
+}
+.nice-box {
+  font-family: "Bitter", serif;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+  background-color: white;
+
+  display: block;
+  position: relative;
+  border: solid 3px rgb(56, 39, 39);
+  padding: 40px 60px;
+  max-width: 800px;
+  margin: 60px auto 0;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+.nice-heading {
+  font-family: "Lobster", cursive;
+}
+.nice-btn {
+  display: none;
+}
+
+/* näytelmien taustaväri */
+.grey {
+  background-color: lightgrey;
+  margin: 1rem 1rem 1rem -1rem;
+}
+/* näytelmät vierekkäin */
+.vierekkain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.no-disc {
+  list-style: none;
+  padding: 1rem 1rem 1rem 2rem;
+}
+/* taulukoiden rivien värit */
+.grey-even tr:nth-child(even) {
+  background-color: lightgrey;
+}
+.grey-odd tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+/* linkkien muotoilu */
+.dotted-links {
+  text-decoration-style: dotted;
+  color: brown;
+  font-weight: 600;
+  font-style: italic;
+}
+/* favikonien muotoilut */
+.fa-envelope {
+  color: brown;
+}
+.fa-external-link-alt {
+  color: darkgreen;
+}
+.fa-file-pdf {
+  color: crimson;
+}
